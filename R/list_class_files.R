@@ -12,7 +12,7 @@
 #' @export
 list_class_files <- function(file_dir_name) {
 
-  possible_file_dir_names <- c("homework", "class_code", "data", "images")
+  possible_file_dir_names <- c("homework", "class_code", "data", "images", "slides")
 
   if (!(file_dir_name %in% possible_file_dir_names))
     stop(paste0("The argument 'file_dir_name' was set to '", file_dir_name, "'.",
