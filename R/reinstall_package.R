@@ -19,7 +19,7 @@ reinstall_package <- function() {
 
   user_package_name <- paste0(user_name, "/", package_name)
 
-  devtools::install_github(user_package_name, force = TRUE)
+  remotes::install_github(user_package_name, force = TRUE)
 
   # unload the old version of the package
   # putting this in a tryCatch to suppress a seemingly meaningless error message seen on Mac/Windows
