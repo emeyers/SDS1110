@@ -8,7 +8,7 @@ list_class_files(file_dir_name)
 }
 \arguments{
 \item{file_dir_name}{The name of a directory in the GitHub repository.
-Options are: "homework", "class_code", "data", "images".}
+Options are: "homework", "class_code", "data", "images", "slides"}
 }
 \description{
 Lists the files that are on the class GitHub site in a particular directory
