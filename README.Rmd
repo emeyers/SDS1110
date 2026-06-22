@@ -29,8 +29,8 @@ Note: we recommend you cut and paste all these commands to avoid typos.
 
 
 ```{r gh-installation, eval = FALSE}
-install.packages("devtools")
-devtools::install_github("emeyers/SDS1110")
+install.packages("remotes")
+remotes::install_github("emeyers/SDS1110")
 ```
 
 

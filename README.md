@@ -18,8 +18,8 @@ for the class run the function below
 Note: we recommend you cut and paste all these commands to avoid typos.
 
 ``` r
-install.packages("devtools")
-devtools::install_github("emeyers/SDS1110")
+install.packages("remotes")
+remotes::install_github("emeyers/SDS1110")
 ```
 
 ## Initial setup using the SDS1110 package
