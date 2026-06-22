@@ -1,4 +1,4 @@
 library(testthat)
-library(SDS111)
+library(SDS1110)
 
-test_check("SDS111")
+test_check("SDS1110")

@@ -41,7 +41,7 @@ test_that("update_installed_packages() works", {
 
 test_that("can reinstall the package", {
 
-  detach_package(SDS111)
+  detach_package(SDS1110)
   reinstall_package()
 
 })

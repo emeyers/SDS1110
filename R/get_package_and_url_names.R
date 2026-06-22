@@ -5,7 +5,7 @@
 
 
 # should set this to the name of the package
-package_name <- "SDS111"
+package_name <- "SDS1110"
 
 # should set this to the github user name of the repository owner
 github_user_name <- "emeyers"

@@ -1,32 +1,32 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# SDS111: Introduction to Data Display and Analysis
+# SDS1110: Introduction to Data Display and Analysis
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-Class material and functions for S&DS 111: Introduction to Data Display
+Class material and functions for S&DS 1110: Introduction to Data Display
 and Analysis
 
-## Installing the SDS111 package
+## Installing the SDS1110 package
 
-To install the SDS111 package that contains functions that are useful
+To install the SDS1110 package that contains functions that are useful
 for the class run the function below
 
 Note: we recommend you cut and paste all these commands to avoid typos.
 
 ``` r
 install.packages("devtools")
-devtools::install_github("emeyers/SDS111")
+devtools::install_github("emeyers/SDS1110")
 ```
 
-## Initial setup using the SDS111 package
+## Initial setup using the SDS1110 package
 
-Once you have installed the SDS111 package, you can use this package to
+Once you have installed the SDS1110 package, you can use this package to
 install other packaged required by the class as well as LaTeX using the
-`SDS111:::initial_setup()` function shown below.
+`SDS1110:::initial_setup()` function shown below.
 
 Notes:
 
@@ -39,7 +39,7 @@ Notes:
     please close and then reopen R Studio.
 
 ``` r
-SDS111:::initial_setup()
+SDS1110:::initial_setup()
 ```
 
 #### Testing LaTeX has been installed
@@ -58,8 +58,8 @@ LaTeX.
 ## Class material
 
 All class material is in the
-[ClassMaterial](https://github.com/emeyers/SDS111/tree/main/ClassMaterial)
+[ClassMaterial](https://github.com/emeyers/SDS1110/tree/main/ClassMaterial)
 directory. In particular the
-[ClassMaterial/slides](https://github.com/emeyers/SDS111/tree/main/ClassMaterial/slides)
+[ClassMaterial/slides](https://github.com/emeyers/SDS1110/tree/main/ClassMaterial/slides)
 directory contains the class slides which can be useful to review what
 was covered in class.
